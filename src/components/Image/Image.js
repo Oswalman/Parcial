@@ -1,15 +1,16 @@
 import React from 'react';
+import logo from './image.jpg';
 //import React, { Component } from './node_modules/react';
 
-const Image=()=>{
+const Imagen= () =>{
 
  
         return(
            
-           <img src={'../img/image.jpg'}></img>
+           <img src={logo} alt="logo"></img>
         );
         
         
 
-    }
-export default Image;
+    };
+export default Imagen;
