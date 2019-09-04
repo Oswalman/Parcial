@@ -6,7 +6,7 @@ import { NoMatch } from './views/NoMatch';
 import { TopicDetail } from './components/TopicDetail';
 import { NavBar } from './components/NavBar';
 import { Route, Switch, Redirect } from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.css';
 
 export const Routes = () => {
   return (
